@@ -1,0 +1,7 @@
+module _XOR(a,b,y); //XOR gate by using inverter,and,or
+input a,b; // declear to input value
+output y;  // declear to see result
+
+assign y = a ^ b; //assign : ^ is ⊕
+
+endmodule
